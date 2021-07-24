@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+* {
+    scrollbar-width: thin;
+    scrollbar-color: salmon whitesmoke;
+  }
+
+* ::-webkit-scrollbar {
+    width: 14px;
+    
+}
+
+*::-webkit-scrollbar-track {
+    background: salmon;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: 3px solid salmon;
+  }
+
 li, a {
     list-style: none;
     color: black;
