@@ -112,16 +112,19 @@ li, a {
 
 .news h1{
     padding-left: 18%;
+    padding-bottom: 10px;
 }
 
 #news-photo {
     max-width: 52%;
     float: right;
-    margin-top: 5%;
+    margin-top: 3%;
+    
     
 }
 
 .news-feed{
+    
     margin-left: 2%;
     max-width: 45%;
     max-height: 70%;
