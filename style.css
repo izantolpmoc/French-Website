@@ -133,3 +133,85 @@ li, a {
     text-align: justify;
     border-bottom:1px solid;
 }
+
+/* Blog layout from W3S */
+
+.Blog{
+    font-family: 'Montserrat', sans-serif;
+    background-color: lemonchiffon;
+}
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 65%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: whitesmoke(238, 230, 230);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  /* Article 1 */
+
+  .article {
+    padding-top: 3%;
+    background-color: lemonchiffon;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.text h1{
+    padding-left: 18%;
+    padding-bottom: 10px;
+}
+
+#article-photo {
+    max-width: 52%;
+    float: left;
+    margin-top: 3%;
+    
+    
+}
+
+.article-text{
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 45%;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align: justify;
+    
+}
