@@ -155,7 +155,7 @@ li, a {
   
   /* Fake image */
   .fakeimg {
-    background-color: #aaa;
+    background-color: rgba(250, 128, 114, 0.712);
     
     padding: 20px;
   }
